@@ -1,0 +1,19 @@
+*.exe
+*.out
+*.o
+*.obj
+
+#VSCode
+.vscode/
+
+#Python
+__pycache__/
+*.pyc
+
+#Log and Output files
+output/
+.log
+
+#OS files
+.DS_Store
+Thumbs.db
