@@ -1,0 +1,6 @@
+2025-05-01 10:15:23 INFO User login successful
+2025-05-01 10:16:02 ERROR Database connection failed
+2025-05-01 10:16:30 WARNING Disk usage high
+2025-05-01 10:17:10 INFO Request completed
+2025-05-01 10:18:05 ERROR Timeout while reading file
+2025-05-01 10:19:22 INFO User logout
