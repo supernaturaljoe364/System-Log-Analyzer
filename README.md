@@ -28,7 +28,7 @@ show logs\
 show all\
 show sample.log\
 help\
-exit\
+exit
 
 ## POTENTIAL PROJECT IMPROVEMENTS
 
