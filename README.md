@@ -14,7 +14,7 @@ A CLI tool written in C++ that analyzes log files and reports the number of ERRO
 - Basic error handling
 
 ## HOW TO COMPILE AND RUN
-To compile, do:\
+To compile, do:
 
 `g++ main.cpp logAnalyzer.cpp -o -std=c++17 logAnalyzer`
 
@@ -24,11 +24,17 @@ then do:\
 to run the program.
 
 ## COMMANDS
-show logs\
-show all\
-show sample.log\
-help\
-exit
+`show logs`\
+`show all`\
+`show sample.log`\
+`help`\
+`exit`
+
+
+## DIRECTORIES
+
+- data/ -> all .log files that are used for the log analysis.
+- src/ -> source code.
 
 ## POTENTIAL PROJECT IMPROVEMENTS
 
