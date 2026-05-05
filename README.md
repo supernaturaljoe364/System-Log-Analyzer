@@ -31,12 +31,19 @@ to run the program.
 `exit`
 
 
-## DIRECTORIES
+## PROJECT STRUCTURE
+.
+├── data/
+│   ├── sample.log
+│   └── sample2.log
+├── src/
+│   ├── main.cpp
+│   └── logAnalyzer.cpp
+├── logAnalyzer       # Executable (generated after compilation)
+├── README.md
+└── .gitignore
 
-- data/ -> all .log files that are used for the log analysis.
-- src/ -> source code.
-
-## POTENTIAL PROJECT IMPROVEMENTS
+## POTENTIAL IMPROVEMENTS
 
 - Track the most frequent errors
 - Improve command parsing (done)

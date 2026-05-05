@@ -12,7 +12,6 @@ __pycache__/
 
 #Log and Output files
 output/
-.log
 
 #OS files
 .DS_Store
