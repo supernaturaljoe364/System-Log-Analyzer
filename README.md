@@ -32,16 +32,20 @@ to run the program.
 
 
 ## PROJECT STRUCTURE
+## Project Structure
+
+```
 .
-├── data\
-│   ├── sample.log\
-│   └── sample2.log\
-├── src\
-│   ├── main.cpp\
-│   └── logAnalyzer.cpp\
-├── logAnalyzer\       # Executable (generated after compilation)
-├── README.md\
-└── .gitignore\
+├── data/
+│   ├── sample.log
+│   └── sample2.log
+├── src/
+│   ├── main.cpp
+│   └── logAnalyzer.cpp
+├── README.md
+└── .gitignore
+```
+
 
 ## POTENTIAL IMPROVEMENTS
 
