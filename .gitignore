@@ -2,6 +2,7 @@
 *.out
 *.o
 *.obj
+*.sh
 
 #VSCode
 .vscode/
@@ -12,6 +13,7 @@ __pycache__/
 
 #Log and Output files
 output/
+logAnalyzer
 
 #OS files
 .DS_Store
