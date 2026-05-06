@@ -17,7 +17,6 @@ int main(){
             entries.push_back(name);
         }
     }
-    entries.push_back("EOD");
     std::cout << "===SYSTEM LOG ANALYZER===\nTo exit, type \"exit\".\n\n";
     
     while(true){
@@ -35,8 +34,10 @@ int main(){
             if(second_command == "logs"){
                 std::cout << "========" << '\n';
                 for(const auto& entry : fs::directory_iterator{"data/"}){
-                    std::string name = entry.path().filename().string();
-                    std::cout << name << '\n';
+                    if(entry.path().extension() == ".log"){
+                        std::string name = entry.path().filename().string();
+                        std::cout << name << '\n';
+                    }
                 }
                 std::cout << "\n"; 
             }

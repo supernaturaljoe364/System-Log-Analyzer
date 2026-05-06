@@ -13,10 +13,10 @@ void logAnalyzer(std::ifstream& file, const std::string& filepath){
         if(arr.find("ERROR") != std::string::npos){
             error_count++;
         }
-        else if(arr.find("WARNING") != std::string::npos)  {
+        if(arr.find("WARNING") != std::string::npos)  {
             warning_count++;
         }
-        else if(arr.find("INFO") != std::string::npos)  info_count++;
+        if(arr.find("INFO") != std::string::npos)  info_count++;
     }
     std::cout << "==========================" << '\n';
     std::cout << "Log Analysis of " << filename << '\n';
